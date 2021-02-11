@@ -14,6 +14,7 @@ void leerArchivo(char *vocales, char *sin){
         exit(1);
     }
 
+
     while(fgets(arr, 60, fp)){
         for(int x=0; x<strlen(arr);x++){
             if(arr[x]==65 || arr[x]==69 || arr[x]==73 || arr[x]==79 || arr[x]==85){
