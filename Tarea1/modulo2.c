@@ -27,6 +27,7 @@ void leerArchivo(char *vocales, char *sin){
                 arr[x]='?';
             }
         }
+        fputs(arr, fp1);
     }
     fclose(fp);
     fclose(fp1);
