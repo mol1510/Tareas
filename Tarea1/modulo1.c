@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 
+
 extern void leerArchivo(char *vocales, char *sin);
 
 int main(int argc, char *argv[]){
