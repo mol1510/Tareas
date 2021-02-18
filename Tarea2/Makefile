@@ -12,4 +12,3 @@ modulo2.o: modulo2.c
 clean:
 	rm *.o
 	clear
-
